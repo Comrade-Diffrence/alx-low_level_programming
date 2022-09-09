@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -c $CFILE | mv main.c main.s
+gcc -S $CFILE | mv main.c main.s
