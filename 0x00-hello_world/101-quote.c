@@ -2,6 +2,7 @@
 #include <string.h>
 #include <unistd.h>
 /*main- start
+ * Description: prints standard error
  * Return - sucess
  */
 int main(void)
