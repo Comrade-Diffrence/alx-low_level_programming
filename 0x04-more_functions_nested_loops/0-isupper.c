@@ -2,9 +2,9 @@
 #include "main.c"
 
 /**
- * main - check code
- * Description: check uppercase letters
- * Return: Always 0.
+ * _isupper - A function that checks for uppercase character.
+ * @c: An input charactererc
+ * Return: 1 if c is uppercase or 0 otherwise
  */
 int _isupper(int c)
 {
