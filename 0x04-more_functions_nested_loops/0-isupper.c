@@ -1,18 +1,24 @@
-#include "main.h"
-#include <stdio.h>
+#include "betty.h"
+#include "main.c"
 
 /**
  * main - check code
  * Description: check uppercase letters
  * Return: Always 0.
  */
-int main(void)
+int _isupper(int c)
 {
-	char c;
+	char uppercase = 'A';
+	int isupper = 0;
 
-	c = 'A';
-	printf("%c: %d\n", c, _isupper(c));
-	c = 'a';
-	printf("%c: %d\n", c, _isupper(c));
-	return (0);
+	for (; uppercase <= 'Z'; uppercase++)
+	{
+		if (c == uppercase)
+		{
+			isupper = 1;
+			break;
+		}
+	}
+
+	return (isupper);
 }
