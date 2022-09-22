@@ -2,9 +2,9 @@
 #define MAIN_H
 
 /**
- *File: main.h
- *Author: Sorememkun Emmanuel
- *Descriptiom: Header file containing prototypes for all functions
+ * File: main.h
+ * Author: Soremekun Emmanuel
+ * Description: Header file containing prototypes for all functions
  */
 
 int _putchar(char c);
