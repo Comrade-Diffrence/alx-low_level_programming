@@ -6,7 +6,6 @@
  * Author: Soremekun Emmanuel
  * Description: Header file containing prototypes for all functions
  */
-
 int _putchar(char c);
 char *_strcat(char *dest, char *src);
 char *_strncat(char *dest, char *src, int n);
