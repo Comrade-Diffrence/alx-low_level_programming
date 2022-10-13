@@ -1,6 +1,10 @@
 #ifndef VARIADIC_FUNCTIONS_H
 #define VARIADIC_FUNCTIONS_H
 #include <stdarg.h>
+/**
+ * struct checker: checks the struct
+ */
+
 int sum_them_all(const unsigned int n, ...);
 void print_numbers(const char *separator, const unsigned int n, ...);
 void print_strings(const char *separator, const unsigned int n, ...);
@@ -14,5 +18,5 @@ typedef struct checker
 {
 	char *type;
 	void (*f)();
-}checker;
+} checker;
 #endif
